@@ -17,7 +17,7 @@ const social = [
   {
     icon: <FaTwitter />,
     //url: "https://twitter.com/your-username",
-    url: 'a'
+    url: ''
   },
 ];
 

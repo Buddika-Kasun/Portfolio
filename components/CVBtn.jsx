@@ -5,6 +5,7 @@ import MotionBtn from "./MotionBtn";
 const CVBtn = () => {
   return (
     <MotionBtn>
+      <a href="/assets/CV/BuddikaKasun.pdf" download="Buddika_Kasun_CV.pdf">
       <Button
         variant="outline"
         size="lg"
@@ -13,6 +14,7 @@ const CVBtn = () => {
         <span>Download CV</span>
         <FiDownload className="text-xl" />
       </Button>
+      </a>
     </MotionBtn>
   );
 };
